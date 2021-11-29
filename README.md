@@ -39,3 +39,7 @@ Ao abrir a home novamente, o histórico de cidades aparecerá
 ![image](https://user-images.githubusercontent.com/42324938/143872156-52de02ad-9a45-4df5-b5e7-1b4153b705fb.png)
 
 Enjoy!
+
+# Sobre
+- Código base desenvolvido pelo Prof. Paulo Afonso
+- Funcionalidade de histórico inserida por Vítor Ferreira, para a disciplina de Modelagem e Implementação de Software
