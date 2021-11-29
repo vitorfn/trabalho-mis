@@ -27,10 +27,20 @@
             (selectCity)="onSelectCity($event)"
           ></app-city-details>
         </ion-list>
+        <div *ngIf="!hasError && !cities">
+          <span>Histórico de Consultas</span>
+          <ion-list lines="none">
+            <app-city-details
+              *ngFor="let city of history"
+              id="{{city.id}}"
+              name="{{city.name}}"
+              state="{{city.state}}"
+              (selectCity)="onSelectCity($event)"
+            ></app-city-details>
+          </ion-list>
+        </div>
       </ion-col>
-      <ion-col>
-        Meu Local
-      </ion-col>
+      <ion-col> Meu Local </ion-col>
     </ion-row>
   </ion-grid>
 </ion-content>
